@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilos para as métricas */
+.metrics {
+  padding: 10px;            /* Adiciona um pouco de espaço interno */
+  margin-top: 70px;         /* Espaço entre o gráfico e as métricas */
+  min-width: 260px;         /* Define uma largura mínima */
+  max-height: 200px;
+  background-color: #fff;   /* Para destacar as métricas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para as métricas */
+  border-radius: 8px;       /* Bordas arredondadas */
+}
+
+.metrics h4 {
+  margin-bottom: 10px;      /* Espaçamento entre o título e as métricas */
+  font-size: 18px;          /* Tamanho da fonte do título */
+  color: #333;              /* Cor do texto do título */
+}
+
+.metrics p {
+  margin: 3px 0;            /* Espaçamento entre as linhas de métricas */
+  font-size: 14px;          /* Tamanho da fonte das métricas */
+  color: #555;              /* Cor do texto das métricas */
+  text-align: left;
+}
+
+/* Responsividade para telas até 768px */
+@media (max-width: 768px) {
+  .metrics {
+    margin-top: 40px;  /* Menos margem no topo em telas menores */
+    min-width: 100%;   /* Ajusta para ocupar toda a largura disponível */
+    max-height: none;  /* Remove a altura máxima para adaptação */
+    padding: 15px;     /* Mais espaço interno */
+  }
+
+  .metrics h4 {
+    font-size: 16px;    /* Reduz o tamanho da fonte do título */
+  }
+
+  .metrics p {
+    font-size: 12px;    /* Reduz o tamanho da fonte das métricas */
+  }
+  
+  /* Ajustando os gráficos */
+  .chart-wrapper {
+    height: 300px; /* Ajusta a altura do gráfico em telas pequenas */
+  }
+
+  .chart-item {
+    height: 400px; /* Ajusta a altura dos gráficos em telas menores */
+  }
+
+  .chart-item canvas {
+    width: 100% !important; /* Garantir que o gráfico ocupe toda a largura */
+    height: 100% !important; /* Garantir que o gráfico ocupe toda a altura */
+  }
+}
+
+/* Responsividade para telas muito pequenas (como smartphones) */
+@media (max-width: 480px) {
+  .metrics {
+    margin-top: 30px;    /* Ajuste da margem superior para dispositivos menores */
+    padding: 10px;       /* Menos padding para dispositivos pequenos */
+    min-width: 100%;     /* Garantir que as métricas ocupem toda a largura */
+  }
+
+  .metrics h4 {
+    font-size: 14px;     /* Menor fonte para o título */
+  }
+
+  .metrics p {
+    font-size: 12px;     /* Menor fonte para as métricas */
+  }
+
+  .chart-wrapper {
+    height: 250px;       /* Reduz a altura do gráfico em dispositivos pequenos */
+  }
+
+  .chart-item {
+    height: 300px;       /* Ajusta a altura dos gráficos para telas menores */
+  }
+
+  .chart-item canvas {
+    width: 100% !important; /* Garante que o gráfico ocupe toda a largura disponível */
+    height: 100% !important; /* Garante que o gráfico ocupe toda a altura */
+  }
+}
+
+.show-all-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6e6e6e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.probabilidade {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6e6e6e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-left: 64%;
+}
+.probabilidade:hover {
+  background-color: #0056b3;
+}
+
+
+.show-all-btn:hover {
+  background-color: #0056b3;
+}
+

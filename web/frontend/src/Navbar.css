@@ -1,0 +1,28 @@
+
+.navbar {
+    background-color: #000000;
+  }
+  
+  .navbar-brand {
+    color: rgb(112, 112, 112);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgb(112, 112, 112);
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+  }
+  
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
