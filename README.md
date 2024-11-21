@@ -108,5 +108,5 @@ Parâmetro: type (temperature ou humidity)
 - Claudio Matos
 
 ## Video Pitch
-https://www.youtube.com/watch?v=VnLjVJVgzSE
+https://youtu.be/zsnj2vMGuto
 
