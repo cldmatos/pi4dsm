@@ -106,3 +106,7 @@ Parâmetro: type (temperature ou humidity)
 - Leonardo Victor Pereira Ferreira
 - João Pedro Andrade Cintra
 - Claudio Matos
+
+## Video Pitch
+https://www.youtube.com/watch?v=VnLjVJVgzSE
+
